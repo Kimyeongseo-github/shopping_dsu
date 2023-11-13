@@ -80,8 +80,8 @@ class _ItemDetailsPageState extends State<ItemDetailsPage> {
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(20),
         child: TextButton(
-          onPressed: () => launchUrl(Uri.parse(
-              'http://192.168.123.100/CS/categories.php?m_category=1')), // 웹사이트 링크 연결
+          onPressed: () => launchUrl(Uri.parse( // 본인의 ip 주소를 입력
+              'http://ipv4 주소/CS/categories.php?m_category=1')), // 웹사이트 링크 연결
           style: TextButton.styleFrom(
               foregroundColor: Colors.white,
               backgroundColor: kPrimaryColor,
