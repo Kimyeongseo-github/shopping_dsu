@@ -79,8 +79,8 @@ class _Mypagebodystate extends State<MypageBody> {
             SizedBox(height: getProportionateScreenWidth(30)),
             // 사이트 바로가기
             TextButton(
-              onPressed: () => // 본인의 ip주소를 해당 링크에 입력하여 연결
-                  launchUrl(Uri.parse('http://ipv4 주소/CS/index.php')),
+              onPressed: () => 
+                  launchUrl(Uri.parse('ttp://vegetable.dothome.co.kr/index.php')),
               child: // 간격 띄우기
                   const Text(
                 "우리 사이트 바로가기",
